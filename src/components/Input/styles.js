@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const InputContainer = styled.div`
     width: 100%;
     height: 75px;
-    background-color: #AAAAFF;
+    background-color: #004138;
 
     display: flex;
     align-items: center;
@@ -16,14 +16,15 @@ export const InputContainer = styled.div`
     input {
         width: 100%;
         height: 75px;
-        background-color: #AAAAFF;
+        background-color: #004138;
         border: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        text-align: right; 
+        
         padding: 0 10px;
         font-size: 24px;
         font-family: 'Roboto';
-        color: #FFFFFF;
+        color: #FFFF;
     }
 `
+
+//encadeamento, temos uma div e dentro dela um input
